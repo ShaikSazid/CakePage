@@ -61,7 +61,7 @@ const Profile = () => {
             />
             <link
               rel="canonical"
-              href={`https://mycakepage.vercel.app/${customUrl}`}
+              href={`https://cake-page-eight.vercel.app/${customUrl}`}
             />
           </Helmet>
           <PublicProfileCard profile={profile} />

@@ -97,14 +97,14 @@ const Home = () => {
           content="cakepage, mycakepage, cake website, bakery online, cakes, order cakes online, showcase cakes, cake flavors"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://mycakepage.vercel.app/" />
+        <link rel="canonical" href="https://cake-page-eight.vercel.app/" />
         <script type="application/ld+json">
           {`
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "MyCakePage",
-    "url": "https://mycakepage.vercel.app",
+    "url": "https://cake-page-eight.vercel.app",
     "description": "A digital cake gallery for bakers to display and sell cakes online via a unique CakePage."
   }
   `}

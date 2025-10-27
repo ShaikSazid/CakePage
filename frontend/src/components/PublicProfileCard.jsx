@@ -10,7 +10,7 @@ const PublicProfileCard = ({ profile }) => {
   if (!profile) return null;
 
   const handleShare = async () => {
-    const url = `http://localhost:5173/${customUrl}`;
+    const url = `https://cake-page-eight.vercel.app/${customUrl}`;
     const message = `🎂 Check out ${profile.bakeryName}'s cake collection on MyCakePage!\n\nExplore beautifully designed cakes for every occasion. View the full gallery here:\n${url}\n\nPowered by https://mycakepage.vercel.app – India’s easiest cake portfolio builder. 🍰`;
 
     try {
@@ -84,13 +84,13 @@ const PublicProfileCard = ({ profile }) => {
           <div className="flex items-center justify-center m-2 max-w-[90%] mx-auto">
             <p
               className="border border-white/10 bg-white/10 text-white/70 py-1.5 px-2 rounded-l-md text-sm max-w-[70%] truncate"
-              title={`http://localhost:5173/${customUrl}`}
+              title={`https://cake-page-eight.vercel.app/${customUrl}`}
             >
-              {`http://localhost:5173/${customUrl}`}
+              {`https://cake-page-eight.vercel.app/${customUrl}`}
             </p>
             <button
               onClick={() => {
-                const url = `http://localhost:5173/${customUrl}`;
+                const url = `https://cake-page-eight.vercel.app/${customUrl}`;
                 navigator.clipboard
                   .writeText(url)
                   .then(() => {

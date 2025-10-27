@@ -91,11 +91,11 @@ const QrCodePopUp = ({ url, setShowPopup, profile }) => {
           <p className="text-xs text-gray-500 italic mt-2">
             Developed by{" "}
             <span className=" text-emerald-400 font-semibold">
-              Shaik Sharzil
+              Shaik Sazid
             </span>
           </p>
           <p  className="text-xs text-gray-400 italic">
-            https://mycakepage.vercel.app/
+            https://cake-page-eight.vercel.app/
           </p>
         </div>
         <div className="flex justify-center gap-3 mt-4">

@@ -186,7 +186,7 @@ const FlavoursPage = () => {
       />
       {showQrPopup && (
         <QrCodePopUp
-          url={`https://mycakepage.vercel.app/${customUrl}`}
+          url={`https://cake-page-eight.vercel.app/${customUrl}`}
           setShowPopup={setShowQrPopup}
           profile={profileData}
         />
