@@ -96,7 +96,7 @@ const Admin = () => {
       )}
       {showQrPopup && (
         <QrCodePopUp
-          url={`https://mycakepage.vercel.app/${customUrl}`}
+          url={`https://cakepage.onrender.com/${customUrl}`}
           setShowPopup={setShowQrPopup}
           profile={profileData}
         />

@@ -6,7 +6,7 @@ const CakeCategories = ({ categories, bakeryName }) => {
   const { customUrl } = useParams();
   if (!categories?.length) return null;
   const handleShare = async (categoryName, categoryId) => {
-    const url = `https://mycakepage.vercel.app/${customUrl}/${categoryId}`;
+    const url = `http://localhost:5173/${customUrl}/${categoryId}`;
     const message = `🎂 Explore "${categoryName}" from ${bakeryName} on MyCakePage!\n\nCheck out this cake collection:\n${url}\n\nPowered by MyCakePage – helping bakeries showcase and sell beautifully. 🍰`;
 
     try {

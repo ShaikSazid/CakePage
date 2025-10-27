@@ -38,7 +38,7 @@ const ProfileCard = ({ setShowQrPopup, setCustomUrl, setProfileData }) => {
   }, []);
 
   const handleShare = async () => {
-    const url = `https://mycakepage.vercel.app/${user.customUrl}`;
+    const url = `http://localhost:5173/${user.customUrl}`;
     const message = `🎂 Check out ${profile.bakeryName}'s cake collection on MyCakePage!\n\nExplore their unique cake designs for every occasion:\n${url}\n\nPowered by https://mycakepage.vercel.app – India's easiest cake portfolio builder. 🍰`;
     try {
       if (navigator.share) {
@@ -124,11 +124,11 @@ const ProfileCard = ({ setShowQrPopup, setCustomUrl, setProfileData }) => {
           </div>
           <div className="flex items-center justify-center m-2">
             <p className="border border-white/10 bg-white/10 text-white/70 py-1 px-2 rounded-l-md text-ellipsis max-w-[70%] truncate">
-              https://mycakepage.vercel.app/{user.customUrl}
+              http://localhost:5173/{user.customUrl}
             </p>
             <button
               onClick={() => {
-                const url = `https://mycakepage.vercel.app/${user.customUrl}`;
+                const url = `http://localhost:5173/${user.customUrl}`;
                 navigator.clipboard
                   .writeText(url)
                   .then(() => {
